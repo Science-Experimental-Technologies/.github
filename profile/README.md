@@ -8,18 +8,18 @@
 
 # Science Experimental Technologies
 
-### Advancing science, engineering, computing, and emerging technologies through research, experimentation, and open innovation.
+### Advancing science. Engineering the future.
 
-**We turn research questions and technical ideas into software, experiments, and inspectable engineering.**
+**We explore emerging technology and build practical software that people can inspect, adapt, and improve.**
 
-[![Contact](https://img.shields.io/badge/Contact-scix.official%40gmail.com-0B0F16?style=flat-square&logo=gmail&logoColor=white)](mailto:scix.official@gmail.com)
-[![YouTube](https://img.shields.io/badge/YouTube-ScExTe-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@ScExTe)
+[![Website](https://img.shields.io/badge/Website-scix.pages.dev-075BFF?style=flat-square&logo=cloudflarepages&logoColor=white)](https://scix.pages.dev)
+[![Email](https://img.shields.io/badge/Email-scix.official%40gmail.com-0B0F16?style=flat-square&logo=gmail&logoColor=white)](mailto:scix.official@gmail.com)
 [![AIMix license](https://img.shields.io/badge/AIMix-MIT-075BFF?style=flat-square)](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/LICENSE)
-[![Exoplanet Search DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22794079.svg)](https://doi.org/10.5281/zenodo.22794079)
+[![YouTube](https://img.shields.io/badge/YouTube-ScExTe-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@ScExTe)
 
-[Explore our projects](#featured-projects) · [Collaborate with us](#collaboration--sponsorship) · [Browse the organization](https://github.com/Science-Experimental-Technologies)
+[Explore AIMix](#featured-project) · [Work with us](#collaboration--sponsorship) · [Visit our website](https://scix.pages.dev)
 
-**Brand palette:** Primary `#075BFF` · Accent `#00C2FF` · Ink `#0B0F16` · Light `#F5F7FA`
+**Brand palette:** Primary `#075BFF` · Accent `#00C2FF` · Ink `#0B0F16`
 
 </div>
 
@@ -27,33 +27,35 @@
 
 ## About Us
 
-Science Experimental Technologies (SCIX) is an Indonesia-based organization working across science, engineering, computing, and emerging technologies. We build practical software and research workflows that make complex systems easier to experiment with, inspect, and improve. Our public portfolio currently includes **AIMix**, a self-hosted AI gateway, and **Exoplanet Search**, a reproducible computational astronomy pipeline. Each project publishes its own documentation, status, and license so collaborators can evaluate the work with clear expectations.
+Science Experimental Technologies (SCIX) is an Indonesia-based organization exploring the intersection of science, engineering, and emerging technology. We turn technical questions into practical software and experiments that are easier to inspect, evaluate, and build upon. Our current featured software project is **AIMix**, a self-hosted gateway for AI applications, models, and developer tools. We welcome collaborators who value clear documentation, open discussion, and evidence-led engineering.
 
 ## Mission & Vision
 
-**Mission** — Advance useful technology through careful research, hands-on experimentation, and engineering that others can inspect.
+**Mission** — Advance useful technology through research, hands-on experimentation, and engineering others can examine.
 
-**Vision** — A future where scientific ideas move into accessible, adaptable tools and where the evidence behind them is easy to examine.
+**Vision** — Make powerful technical capabilities more accessible, adaptable, and understandable.
 
 ## What We Build
 
-| Focus area | What it means at SCIX | Current work |
+| Focus area | What it means at SCIX | Current expression |
 | --- | --- | --- |
-| 🤖 AI infrastructure | A controllable interface for applications, agents, model providers, and operational policy. | AIMix gateway, routing, integrations, and observability |
-| 🔭 Computational science | Reproducible analysis pipelines that connect public data, tested methods, and independent review. | Exoplanet Search transit-recovery research |
-| 🧰 Applied engineering | Useful tools, interfaces, automation, and workflows built around real technical problems. | Developer tooling and project-specific systems |
-| 📚 Open collaboration | Public code, documentation, issue tracking, and contribution paths with project-specific terms. | Repositories, release records, and contributor guidance |
+| 🤖 AI infrastructure | Connect applications and tools to model providers through a controllable gateway. | AIMix |
+| 🧰 Applied engineering | Turn technical requirements into practical, maintainable software. | Public project development |
+| 🔬 Research workflows | Make experiments and system behavior easier to inspect and evaluate. | Project documentation and evaluation tooling |
+| 🌐 Open collaboration | Share code and invite feedback through public repositories. | Issues, discussions, and pull requests |
 
-## Featured Projects
+## Featured Project
 
-| Project | What it does | Stack | License | Status |
-| --- | --- | --- | --- | --- |
-| [AIMix](https://github.com/Science-Experimental-Technologies/AIMix) | Self-hosted AI gateway for connecting applications, developer tools, and agents to model providers through a consistent interface. | JavaScript · Node.js 20.9+ · Next.js 16 | MIT | Pre-1.0 development · repository version 0.5.55 |
-| [Exoplanet Search (SXS)](https://github.com/Science-Experimental-Technologies/Exoplanet-Search) | Reproducible Kepler transit recovery, signal ranking, and independent scientific vetting. | Python 3.11–3.12 · NumPy · SciPy · Astropy · Lightkurve · scikit-learn | Source-available commercial license | v1.4.0 final planned feature release; critical corrections may be considered |
+### [AIMix — One gateway. Every model. Smart execution.](https://github.com/Science-Experimental-Technologies/AIMix)
 
-### AIMix — AI Infrastructure
+AIMix is a self-hosted AI gateway and decision layer for models, agents, developer tools, and multimodal workloads. It brings provider connectivity, routing, fallback, policy, and request visibility behind a consistent interface.
 
-AIMix brings provider access, routing, fallback, policy, and request visibility into a gateway teams can operate themselves. Its documentation describes direct and adaptive routing, compatible API surfaces, agent and tool controls, and **120+ active runtime provider adapters**. The project is under pre-1.0 development; review its repository for current capabilities and deployment guidance.
+**Capabilities documented in the repository**
+
+- OpenAI-, Anthropic-, and Gemini-compatible request surfaces.
+- Direct routing and adaptive selection with configurable hard constraints.
+- Health-aware provider selection, bounded retries, and fallback execution.
+- Policy, request traces, usage accounting, and diagnostics for operational review.
 
 <p align="center">
   <a href="https://github.com/Science-Experimental-Technologies/AIMix">
@@ -61,92 +63,81 @@ AIMix brings provider access, routing, fallback, policy, and request visibility 
   </a>
 </p>
 
-[AIMix repository](https://github.com/Science-Experimental-Technologies/AIMix) · [Issues](https://github.com/Science-Experimental-Technologies/AIMix/issues) · [MIT license](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/LICENSE)
+| Status | Stack | License |
+| --- | --- | --- |
+| Pre-1.0 · active development | JavaScript · Node.js 20.9+ · Next.js 16 | MIT |
 
-### Exoplanet Search — Computational Astronomy
+[Repository](https://github.com/Science-Experimental-Technologies/AIMix) · [Documentation](https://github.com/Science-Experimental-Technologies/AIMix#readme) · [Issues](https://github.com/Science-Experimental-Technologies/AIMix/issues) · [Releases](https://github.com/Science-Experimental-Technologies/AIMix/releases)
 
-SXS processes public Kepler photometry, searches for periodic transit-like signals, and evaluates shortlisted signals with independent evidence. Its final independent review recorded **0 strong candidates, 1 weak candidate, and 19 likely false positives**. The project reports no confirmed new exoplanet; model scores prioritize review and are not planetary probabilities.
+### Suggested Evaluation Path
 
-<p align="center">
-  <a href="https://science-experimental-technologies.github.io/Exoplanet-Search/getting-started/cli-preview/">
-    <img src="./assets/sxs-cli-help.svg" alt="SXS command-line preview for baseline recovery, search, and validation" width="84%">
-  </a>
-</p>
-
-[Exoplanet Search repository](https://github.com/Science-Experimental-Technologies/Exoplanet-Search) · [Documentation](https://science-experimental-technologies.github.io/Exoplanet-Search/) · [Zenodo record](https://doi.org/10.5281/zenodo.22794079)
+1. Review the [quick start](https://github.com/Science-Experimental-Technologies/AIMix#quick-start) and [deployment guide](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/DOCKER.md).
+2. Evaluate a scoped workload using a test provider or a local model runtime.
+3. Review compatibility, routing behavior, fallback, policy controls, and request visibility against your requirements.
 
 ## Technology
 
-**AI and application infrastructure**
+The following reflects the current AIMix repository:
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-**Scientific computing and astronomy**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![Astropy](https://img.shields.io/badge/Astropy-222222?style=flat-square)
-![Lightkurve](https://img.shields.io/badge/Lightkurve-Astronomy-6B5B95?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-
-These technologies reflect the public repositories’ declared languages, runtimes, and dependencies. Each project documents its supported versions and setup separately.
-
 ## Why Partner With Us
 
 ### For Companies
 
-- **Evaluate the implementation directly:** AIMix is MIT-licensed and designed to be self-hosted; begin with the code and deployment documentation.
-- **Discuss practical integration:** explore provider connectivity, routing needs, or scoped pilot work with maintainers.
-- **Know the terms up front:** licenses differ by project. Exoplanet Search is source-available under a custom commercial license, not an OSI-approved open-source license.
+- **Start with inspectable software:** AIMix is publicly developed and MIT-licensed.
+- **Explore integration together:** discuss provider connectivity, deployment, and a scoped pilot against your needs.
+- **Keep adoption practical:** begin with an evaluation and agree on success criteria before expanding scope.
 
-### For Research Institutions
+### For Researchers
 
-- **Inspect the scientific record:** SXS documents its methods, candidate-review limits, software release, and archival DOI.
-- **Discuss reproducibility and review:** propose a method comparison, independent review, or a clearly scoped research collaboration.
-- **Build at the research/engineering boundary:** connect scientific workflows with practical software and infrastructure.
+- **Connect research and engineering:** explore how AI infrastructure can support applied research workflows.
+- **Review the implementation:** examine the repository, technical documentation, and change history directly.
+- **Shape useful questions:** propose evaluations or joint work with a clear scope and reproducible outcomes.
 
 ### For Contributors
 
-- **Improve useful systems:** contribute adapters, documentation, integrations, reproducibility, packaging, and workflow quality.
-- **Work through public channels:** discuss proposed work in the relevant repository before large changes.
-- **Follow project guidance:** contribution and conduct rules are maintained with each project.
+- **Improve a real system:** contribute code, documentation, integrations, examples, or usability feedback.
+- **Work in public:** use repository issues and pull requests to discuss changes with maintainers.
+- **Build with context:** read the project's contribution and conduct guidance before starting.
 
 ## Collaboration & Sponsorship
 
-We welcome inquiries about **research collaboration, sponsorship, custom integration, pilot evaluation, and mentoring**. Tell us which project you are interested in, the problem you want to solve, and what a useful outcome would look like. We will align scope, ownership, and licensing terms before work begins.
+We are open to sponsorship, joint research, custom integration, pilot programs, and mentoring. Send a short note about the problem, the people involved, and the outcome you want to explore; we can then align on scope, responsibilities, and licensing.
 
-**Contact:** [scix.official@gmail.com](mailto:scix.official@gmail.com) · [AIMix issues](https://github.com/Science-Experimental-Technologies/AIMix/issues) · [SXS issues](https://github.com/Science-Experimental-Technologies/Exoplanet-Search/issues) · [YouTube](https://www.youtube.com/@ScExTe)
+**Start a conversation:** [scix.official@gmail.com](mailto:scix.official@gmail.com?subject=SCIX%20collaboration) · [AIMix discussions](https://github.com/Science-Experimental-Technologies/AIMix/discussions)
 
-For sponsorship, licensing, or commercial-use discussions, contact us directly. No sponsorship portal is currently linked from this profile.
+For sponsorship inquiries, contact us by email.
 
-## Current Work & Roadmap
+## Roadmap
 
-| Project | Current direction |
+| Phase | Direction |
 | --- | --- |
-| **AIMix** | Provider conformance and lifecycle coverage; observability integrations; policy authoring and simulation; plugin isolation and permissions; SDK/API references and release artifact integrity. See the [AIMix repository](https://github.com/Science-Experimental-Technologies/AIMix) for current plans. |
-| **Exoplanet Search** | v1.4.0 is the final planned feature release. The repository remains a reproducible software and research record; critical security, packaging, or record-integrity corrections may be considered. |
+| **Now** | AIMix is in pre-1.0 development. Follow its public issues, documentation, and changelog for current work. |
+| **Next** | Use community and adopter feedback to prioritize integration and operator workflow improvements. |
+| **Later** | Explore broader collaborations around practical, self-hosted AI infrastructure. |
+
+Confirmed releases and project updates are published in the [AIMix repository](https://github.com/Science-Experimental-Technologies/AIMix).
 
 ## Trust, Security & Licensing
 
-Policies are maintained in the project repositories so security and contribution guidance stays close to the code:
+Review the project policies and license before adopting or contributing:
 
-| Project | Security | Contributing | Conduct | License |
-| --- | --- | --- | --- | --- |
-| [AIMix](https://github.com/Science-Experimental-Technologies/AIMix) | [SECURITY.md](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/SECURITY.md) | [CONTRIBUTING.md](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/CONTRIBUTING.md) | [CODE_OF_CONDUCT.md](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/CODE_OF_CONDUCT.md) | [MIT](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/LICENSE) |
-| [Exoplanet Search](https://github.com/Science-Experimental-Technologies/Exoplanet-Search) | [SECURITY.md](https://github.com/Science-Experimental-Technologies/Exoplanet-Search/blob/main/SECURITY.md) | [CONTRIBUTING.md](https://github.com/Science-Experimental-Technologies/Exoplanet-Search/blob/main/CONTRIBUTING.md) | [CODE_OF_CONDUCT.md](https://github.com/Science-Experimental-Technologies/Exoplanet-Search/blob/main/CODE_OF_CONDUCT.md) | [Source-Available Commercial License](https://github.com/Science-Experimental-Technologies/Exoplanet-Search/blob/main/LICENSE) |
+| Security | Contributing | Code of conduct | License |
+| --- | --- | --- | --- |
+| [SECURITY.md](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/SECURITY.md) | [CONTRIBUTING.md](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/CONTRIBUTING.md) | [CODE_OF_CONDUCT.md](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/CODE_OF_CONDUCT.md) | [MIT License](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/LICENSE) |
 
-Report vulnerabilities privately through the relevant repository’s security policy. Please avoid public disclosure of exploitable details. Read the applicable license before using, redistributing, or integrating project code, especially for commercial activity.
+**Responsible disclosure:** report suspected vulnerabilities privately using the instructions in AIMix's `SECURITY.md`. Please do not publish exploit details before maintainers have had a reasonable opportunity to investigate and respond.
 
 ## Get Involved
 
-1. **Choose a project:** explore [AIMix](https://github.com/Science-Experimental-Technologies/AIMix) or [Exoplanet Search](https://github.com/Science-Experimental-Technologies/Exoplanet-Search).
-2. **Find a starting point:** browse [AIMix good first issues](https://github.com/Science-Experimental-Technologies/AIMix/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [SXS good first issues](https://github.com/Science-Experimental-Technologies/Exoplanet-Search/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
-3. **Contribute with context:** read that project’s `CONTRIBUTING.md`, open or join an issue, and submit a focused pull request.
+1. **Explore:** read the [AIMix overview](https://github.com/Science-Experimental-Technologies/AIMix#readme) and setup documentation.
+2. **Choose a task:** browse [good first issues](https://github.com/Science-Experimental-Technologies/AIMix/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or open an issue to discuss an idea.
+3. **Contribute:** follow [`CONTRIBUTING.md`](https://github.com/Science-Experimental-Technologies/AIMix/blob/main/CONTRIBUTING.md), then submit a focused pull request.
 
-If you are unsure where your idea fits, email [scix.official@gmail.com](mailto:scix.official@gmail.com) with a short summary.
+Not sure where to start? Email [scix.official@gmail.com](mailto:scix.official@gmail.com) with a short description of your interest.
 
 ---
 
@@ -154,6 +145,6 @@ If you are unsure where your idea fits, email [scix.official@gmail.com](mailto:s
 
 **Explore. Experiment. Engineer. Share what you learn.**
 
-Science Experimental Technologies · [GitHub](https://github.com/Science-Experimental-Technologies) · [YouTube](https://www.youtube.com/@ScExTe) · [Email](mailto:scix.official@gmail.com)
+Science Experimental Technologies · [Website](https://scix.pages.dev) · [GitHub](https://github.com/Science-Experimental-Technologies) · [YouTube](https://www.youtube.com/@ScExTe) · [Email](mailto:scix.official@gmail.com)
 
 </div>
