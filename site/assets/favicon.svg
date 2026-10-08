@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">SCIX</title>
+  <rect width="48" height="48" rx="10" fill="#080d18"/>
+  <path d="M6 6h11l6 10-6 6L6 6Zm36 0H31l-6 10 6 6 11-16ZM6 42h11l6-10-6-6L6 42Zm36 0H31l-6-10 6-6 11 16Z" fill="#075bff"/>
+</svg>
